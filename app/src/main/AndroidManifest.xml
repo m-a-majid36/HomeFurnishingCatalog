@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.user.NimazPerabot.AboutMeActivity"></activity>
-        <activity android:name="com.example.user.NimazPerabot.SplashScreen">
+        <activity android:name="com.majid36.nimazperabot.NimazPerabot.AboutMeActivity"></activity>
+        <activity android:name="com.majid36.nimazperabot.NimazPerabot.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,10 +18,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.user.NimazPerabot.DetailActivity"
+            android:name="com.majid36.nimazperabot.NimazPerabot.DetailActivity"
             android:label="Details"
-            android:parentActivityName="com.example.user.NimazPerabot.MainActivity" />
-        <activity android:name="com.example.user.NimazPerabot.MainActivity" />
+            android:parentActivityName="com.majid36.nimazperabot.NimazPerabot.MainActivity" />
+        <activity android:name="com.majid36.nimazperabot.NimazPerabot.MainActivity" />
     </application>
 
 </manifest>
